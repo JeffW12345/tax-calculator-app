@@ -1,5 +1,5 @@
 Tax Calculator
-Calculates LBTT (Scottish stamp duty). Can be extended to accommodate other taxes
+Calculates LBTT (Scottish stamp duty). 
 
 Assumes that:
 
