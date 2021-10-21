@@ -37,7 +37,7 @@ namespace TaxCalculatorApp
             UpToAndIncluding.Add(750000);
             Rate.Add((decimal)0.1);
             //  Over £750,000 - 12%
-            From.Add((decimal)325000.01);
+            From.Add((decimal)750000.01);
             UpToAndIncluding.Add(Decimal.MaxValue);
             Rate.Add((decimal)0.12);
         }
