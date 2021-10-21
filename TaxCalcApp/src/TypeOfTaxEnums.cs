@@ -6,6 +6,6 @@ namespace TaxCalculatorApp
 {
     public enum TypeOfTaxEnums
     {
-        LBTT
+        Lbtt
     }
 }

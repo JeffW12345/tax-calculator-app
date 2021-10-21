@@ -10,7 +10,7 @@ namespace TestProject1
         public void TestGetTaxDueMethod()
         {
             // Expected figures calculated manually and checked against https://revenue.scot/calculate-tax/calculate-property-transactions#calculator
-            LbttTaxType lbbt = (LbttTaxType)TaxTypeObjectFactory.GetObject(TypeOfTaxEnums.LBTT);
+            LbttTaxType lbbt = (LbttTaxType)TaxTypeObjectFactory.GetObject(TypeOfTaxEnums.Lbtt);
             LbbtTaxCalc taxCalc = new LbbtTaxCalc();
             lbbt.NewPropertyValue = 0;
             Assert.Equal(0, taxCalc.GetTaxDue(lbbt));

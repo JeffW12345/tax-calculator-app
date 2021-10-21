@@ -9,7 +9,7 @@ namespace TaxCalculatorApp
         // Creates a new object of reference type ITaxType, with an object of reference type Threshold object passed into the constructor.
         public static ITaxType GetObject(TypeOfTaxEnums typeOfTax)
         {
-            if(typeOfTax == TypeOfTaxEnums.LBTT)
+            if(typeOfTax == TypeOfTaxEnums.Lbtt)
             {
                 return new LbttTaxType(new LbttThresholds());
             }
