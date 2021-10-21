@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalcApp", "TaxCalcApp\TaxCalcApp.csproj", "{369FEF39-A019-4265-917A-75233FE51DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{BEC0CF2B-0747-4C46-A061-90648140E749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "TestProject1\UnitTests.csproj", "{BEC0CF2B-0747-4C46-A061-90648140E749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

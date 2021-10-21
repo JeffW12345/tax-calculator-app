@@ -4,7 +4,7 @@ using TaxCalculatorApp;
 
 namespace TestProject1
 {
-    public class UnitTest1
+    public class LbttUnitTests
     {
         [Fact]
         public void TestGetTaxDueMethod()
