@@ -6,7 +6,7 @@ namespace TaxCalculatorApp
     {
         static void Main(string[] args)
         {
-            TaxTypeObjectFactory.GetObject(TypeOfTaxEnums.LBTT).SummariseResults((decimal)199999.99); // The property value is passed into this method.
+            TaxTypeObjectFactory.GetObject(TypeOfTaxEnums.LBTT).SummariseResults((decimal)199999.99); // The property value is passed into the SummariseResults method.
         }
     }
 }
