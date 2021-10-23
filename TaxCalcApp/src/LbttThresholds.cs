@@ -16,7 +16,7 @@ namespace TaxCalculatorApp
 
         public void SetThresholds()
         {
-            // Based on current rates at https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property
+            // Based on current rates at https://revenue.scot/taxes/land-buildings-transaction-tax/residential-property (as of 23 October 2021)
             From = new List<decimal>();
             UpToAndIncluding = new List<decimal>();
             Rate = new List<decimal>();
